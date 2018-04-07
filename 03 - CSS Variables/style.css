@@ -1,0 +1,29 @@
+
+   :root{
+      --spaceAround: 10px;
+      --blurVal:  5px;
+      --baseCol: #ffa8ef;
+   }
+
+    body {
+      text-align: center;
+      background: #193549;
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+    }
+
+    input {
+      width:100px;
+    }
+
+    img {
+      padding: var(--spaceAround);
+      filter: blur(var(--blurVal));
+      background-color: var(--baseCol);
+    }
