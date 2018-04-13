@@ -7,7 +7,8 @@
 			const panel = e.target;
 			panel.classList.toggle('open');
 			panel.classList.toggle('open-active');
-			console.log(panel);
+			console.log(panel); 
+			
 		});
 	});
 
