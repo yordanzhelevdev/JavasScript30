@@ -2,7 +2,7 @@
 	const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
 
 	const statesAndCities = [];
-	
+
 	const searchInput = document.querySelector('.search');
 	const listSuggestions = document.querySelector('.suggestions');
 
@@ -18,16 +18,16 @@
 		});
 	}
 
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+	function numberWithCommas(x) {
+		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
 
 	function displayResult() {
 		const filteredArr = searchPlace(this.value, statesAndCities);
-		const listHtml = filteredArr.map( (place) => {
+		const listHtml = filteredArr.map((place) => {
 			const regex = new RegExp(this.value, 'gi');
-			const cityName = place.city.replace(regex, `<span class="hl">${this.value}</span>`) 
-			const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`) 
+			const cityName = place.city.replace(regex, `<span class="hl">${this.value}</span>`)
+			const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`)
 			return `
 				<li>
 					<span class="name">${cityName}, ${stateName}</span>
