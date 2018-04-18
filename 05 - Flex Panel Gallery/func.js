@@ -3,15 +3,21 @@ window.onload = () => {
 
 		const panels = document.querySelectorAll('div.panel');
 		console.log(panels)
+		
+
+		function panelOpen() {
+			this.classList.toggle('open');
+		}
+
+		function panelActive(e) {
+			if(e.propertyName.includes('flex')){
+					this.classList.toggle('open-active');
+			}
+		}
+
 		Array.from(panels).forEach( (panel) => {
-			panel.addEventListener('click', () => {
-				panel.classList.toggle('open');
-			});
-			panel.addEventListener('transitionend', (e) => {
-				if(e.propertyName.includes('flex')){
-						panel.classList.toggle('open-active');
-				}
-			})
+			panel.addEventListener('click', panelOpen);
+			panel.addEventListener('transitionend', panelActive)
 		});
 
 	}());
