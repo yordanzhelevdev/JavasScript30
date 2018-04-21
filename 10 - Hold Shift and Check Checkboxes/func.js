@@ -1,14 +1,28 @@
+'use strict'
 window.onload = () => {
 	const checkBoxes = document.querySelectorAll('input[type="checkbox"]');
+	
+	let lastIndex;
 
-	console.log(checkBoxes);
-	let indexStart = null;	
+	function handleCheck(e){
+		let inBetween = false;
 
-	function checkboxChange(e) {
-		console.log(e);
+		if(e.shiftKey && this.checked){
+			checkBoxes.forEach( checkbox => {
+				if(checkbox === this || checkbox === lastIndex) {
+					inBetween = !inBetween;
+				}
+				if(inBetween){
+					checkbox.checked = true; 
+				}
+
+			});
+		}
+		lastIndex = this;
 	}
 
-	for(let checkbox of checkBoxes){
-		checkbox.addEventListener('change', checkboxChange);
-	}
+
+
+	checkBoxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
+
 }
