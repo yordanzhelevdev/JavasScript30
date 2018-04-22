@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inBetween"
+			],
+			[
+				"setIn",
+				"setIndexOnClick〔function〕"
+			],
+			[
+				"click",
+				"clickIndex〔variable〕"
+			],
+			[
+				"line",
+				"lineWidth"
+			],
+			[
+				"strok",
+				"strokeStyle"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"last",
+				"lastY"
+			],
+			[
+				"inne",
+				"innerWidth〔variable〕"
+			],
+			[
+				"person",
+				"person"
+			],
+			[
+				"fil",
+				"filteredArr〔variable〕"
+			],
+			[
+				"filte",
+				"filteredArr"
+			],
+			[
+				"sear",
+				"searchPlace〔function〕"
+			],
+			[
+				"searc",
+				"searchVal"
+			],
+			[
+				"translate",
+				"translateY()"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"text",
+				"textWrap"
+			],
+			[
+				"reve",
+				"reverse"
+			],
+			[
+				"sort",
+				"sortAlpha〔variable〕"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"inve",
+				"inventLivedYears"
+			],
+			[
+				"lived",
+				"livedYears"
+			],
+			[
+				"old",
+				"oldestToYounger〔variable〕"
+			],
+			[
+				"born",
+				"bornIn1500s"
+			],
+			[
+				"change",
+				"changeVals"
+			],
+			[
+				"back",
+				"backgroundC"
+			],
+			[
+				"blur",
+				"blurRange"
+			],
+			[
+				"spacing",
+				"spacingRange〔variable〕"
+			],
+			[
+				"spaci",
+				"spacingRange〔variable〕"
+			],
+			[
+				"ge",
+				"getElementById〔function〕"
+			],
+			[
+				"d-ri",
+				"d-ri\tdisplay: run-in;"
+			],
+			[
+				"sec",
+				"secDegree"
+			],
+			[
+				"pos",
+				"pos\tposition: ${1:relative};"
+			],
+			[
+				"hour",
+				"hoursDeg"
+			],
+			[
+				"get",
+				"getHours〔function〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"transo",
+				"transform"
+			],
+			[
+				"hou",
+				"hourHand〔variable〕"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"button",
+				"button.innerHTML"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"prop",
+				"PropTypes"
+			],
+			[
+				"p",
+				"PropTypes"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"work",
+				"workSection"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"q",
+				"q-ru\tquotes: '\\00AB' '\\00BB' '\\201E' '\\201C';"
+			],
+			[
+				"just",
+				"justify-content"
+			],
+			[
+				"sig",
+				"signupLogo"
+			],
+			[
+				"media",
+				"media query ipad landscape\tipad landscape"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"li",
+				"align-items"
+			],
+			[
+				"hgri",
+				"hgrill2"
+			],
+			[
+				"h",
+				"hgrill3"
+			],
+			[
+				"hgr",
+				"hgrill2"
+			],
+			[
+				"md",
+				"media query desktop/laptop\tdesktop & laptop"
+			],
+			[
+				"a",
+				"as-c\talign-self: center;"
+			],
+			[
+				"br",
+				"browserSync"
+			],
+			[
+				"gril",
+				"grillberList"
+			],
+			[
+				"steak",
+				"steak"
+			],
+			[
+				"m",
+				"animtf-l\tanimation-timing-function: linear;"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"slid",
+				"slideshow"
+			],
+			[
+				"slide",
+				"slideIndex"
+			],
+			[
+				"time",
+				"timeout\tsetTimeout function"
+			],
+			[
+				"element",
+				"element"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"op",
+				"operands"
+			],
+			[
+				"check",
+				"checkPriority"
+			],
+			[
+				"chek",
+				"checkPriority"
+			],
+			[
+				"che",
+				"checkPriority"
+			],
+			[
+				"ope",
+				"operators"
+			],
+			[
+				"o",
+				"operators"
+			],
+			[
+				"infix",
+				"infix"
+			],
+			[
+				"oper",
+				"operators"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"stack",
+				"stackPosition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livereloa",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"livereal",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"liverelaod",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"LiveReload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 609.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+			"got commit -m 'test'",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/misfity/Desktop/JavaScript30/10 - Hold Shift and Check Checkboxes/func.js",
+		"/home/misfity/Desktop/JavaScript30/10 - Hold Shift and Check Checkboxes/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/05 - Flex Panel Gallery/func.js",
+		"/home/misfity/Desktop/JavaScript30/09 - Dev Tools Domination/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/09 - Dev Tools Domination/func.js",
+		"/home/misfity/Desktop/JavaScript30/08 - Fun with HTML5 Canvas/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/08 - Fun with HTML5 Canvas/func.js",
+		"/home/misfity/Desktop/JavaScript30/07 - Array Cardio Day 2/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/07 - Array Cardio Day 2/func.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/public/index.html",
+		"/home/misfity/Desktop/JavaScript30/06 - Type Ahead/style.css",
+		"/home/misfity/Desktop/JavaScript30/06 - Type Ahead/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/06 - Type Ahead/func.js",
+		"/home/misfity/Desktop/JavaScript30/05 - Flex Panel Gallery/style.css",
+		"/home/misfity/Desktop/JavaScript30/05 - Flex Panel Gallery/index-START.html",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/BookGrill.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/Pricing.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Card/Card.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/SignUp.js",
+		"/home/misfity/Desktop/JavaScript30/04 - Array Cardio Day 1/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/04 - Array Cardio Day 1/func.js",
+		"/home/misfity/Desktop/JavaScript30 (copy 1)/04 - Array Cardio Day 1/index-START.html",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/UserForm/UserForm.js",
+		"/home/misfity/Desktop/Geckos-Team-10/server/graphql/Resolvers/resolvers.js",
+		"/home/misfity/Desktop/JavaScript30/03 - CSS Variables/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/03 - CSS Variables/style.css",
+		"/home/misfity/Desktop/JavaScript30/03 - CSS Variables/func.js",
+		"/home/misfity/Desktop/JavaScript30/02 - JS and CSS Clock/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/02 - JS and CSS Clock/style.css",
+		"/home/misfity/Desktop/JavaScript30/02 - JS and CSS Clock/func.js",
+		"/home/misfity/Desktop/JavaScript30 (copy 1)/02 - JS and CSS Clock/index-FINISHED.html",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/src/index.html",
+		"/home/misfity/Desktop/JavaScript30 (copy 1)/03 - CSS Variables/index-START.html",
+		"/home/misfity/Desktop/JavaScript30/01 - JavaScript Drum Kit/style.css",
+		"/home/misfity/Desktop/JavaScript30/01 - JavaScript Drum Kit/func.js",
+		"/home/misfity/Desktop/JavaScript30/01 - JavaScript Drum Kit/index-START.html",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/src/js/func.js",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/src/sass/main.scss",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/SubHeader/SubHeader.js",
+		"/home/misfity/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/misfity/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/misfity/Desktop/Projects/Homepage/index.html",
+		"/home/misfity/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/misfity/Desktop/Projects/Canvas-Tutorial.html",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/gulpfile.js",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/app/sass/main.scss",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/app/index.html",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Loader/Loader.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Loader/Loader.css",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Loader/style.css",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/app/js/func.js",
+		"/home/misfity/Downloads/palette.scss",
+		"/home/misfity/Desktop/Geckos-Team-10/client/node_modules/react-burger-menu/lib/CrossIcon.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Navbar/styles.css",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Navbar/Navbar.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/HowToGrill/HowToGrill.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/layouts/PrimaryLayout.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/HowToGrill.css",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/pages/HowToGrill.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/src/app/components/Card/styles.css",
+		"/home/misfity/Desktop/das/HowToGrill.js",
+		"/home/misfity/Desktop/das/SlideHeader/carousel.css",
+		"/home/misfity/Desktop/das/Card/Card.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/pages/HowToGrill.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/pages/HowToGrill.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/HowItWorks/styles.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/Card/Card.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/HowItWorks/HowItWorks.js",
+		"/home/misfity/Desktop/Geckos-Team-10/client/package.json",
+		"/home/misfity/Desktop/Geckos-Team-10/server.js",
+		"/home/misfity/Desktop/Geckos-Team-10/node_modules/babel-register/node_modules/core-js/client/core.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/SlideHeader/SlideHeader.js",
+		"/home/misfity/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/styles/styles.scss",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/index.html",
+		"/home/misfity/Desktop/Projects/1/index.html",
+		"/home/misfity/Documents/Projects/dd.html",
+		"/home/misfity/Desktop/Projects/Portfolio v0.3/styles/styles.css",
+		"/home/misfity/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/misfity/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/var/www/html/aliens/style.css",
+		"/home/misfity/Desktop/Projects/Portfolio v0.2/index.html",
+		"/home/misfity/Documents/My Projects/Portfolio v0.2/styles/style.css",
+		"/home/misfity/Documents/My Projects/Portfolio v0.2/index.html",
+		"/home/misfity/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/misfity/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/misfity/Documents/My Projects/Simon Game/index.html",
+		"/home/misfity/Documents/My Projects/Simon Game/script.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/SlideHeader/carousel.scss",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/SlideHeader/carousel.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/layouts/PrimaryLayout.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/index.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/index.js",
+		"/home/misfity/Desktop/Geckos-Team-10/package.json",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/WhatIsGrillber/WhatIs.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/WhatIsGrillber/styles.scss",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/components/WhatIsGrillber/styles.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/app/pages/LandingPage.js",
+		"/home/misfity/Desktop/Geckos-Team-10/src/App.js",
+		"/home/misfity/Documents/My Projects/grillber/src/app/components/SlideHeader/SlideHeader.js",
+		"/home/misfity/Documents/My Projects/grillber/src/index.css",
+		"/home/misfity/Desktop/Projects/grillber/src/index.css",
+		"/home/misfity/Documents/My Projects/grillber/src/App.js",
+		"/home/misfity/Documents/My Projects/grillber/src/app/components/SlideHeader/carousel.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/index.js",
+		"/home/misfity/Documents/My Projects/grillber/src/index.js",
+		"/home/misfity/Documents/My Projects/grillber/src/App.css",
+		"/home/misfity/Desktop/Geckos-Team-10/src/registerServiceWorker.js",
+		"/home/misfity/Desktop/Projects/grillber/src/App.js",
+		"/home/misfity/Desktop/Projects/grillber/src/components/SlideHeader/SlideHeader.js",
+		"/home/misfity/Desktop/Projects/grillber/src/components/SlideHeader/carousel.scss",
+		"/home/misfity/Desktop/Projects/grillber/node_modules/react-transition-group/index.js",
+		"/home/misfity/Desktop/Projects/grillber/node_modules/react-transition-group/CSSTransitionGroupChild.js",
+		"/home/misfity/Desktop/Projects/grillber/node_modules/react-addons-css-transition-group/index.js",
+		"/home/misfity/Documents/My Projects/grillber/src/components/Carousel/Carousel.js",
+		"/home/misfity/Documents/My Projects/grillber/src/Carousel/Carousel.js",
+		"/home/misfity/Documents/My Projects/my-app/src/Carousel/Carousel.js",
+		"/home/misfity/Documents/My Projects/my-app/src/Carousel/carousel.css",
+		"/home/misfity/Documents/My Projects/my-app/src/App.js",
+		"/home/misfity/Desktop/algo.js",
+		"/home/misfity/Documents/My Projects/Data Structures And Algorithms - Exercises/stack.js",
+		"/home/misfity/Documents/My Projects/Data Structures And Algorithms - Exercises/Stacks/infix-to-postfix.js",
+		"/home/misfity/Documents/My Projects/Data Structures And Algorithms - Exercises/Stacks/pez-dispencer.js",
+		"/home/misfity/Documents/My Projects/Data Structures And Algorithms - Exercises/check-parentheses.js",
+		"/home/misfity/.config/sublime-text-3/Packages/User/View In Browser.sublime-settings",
+		"/home/misfity/.config/sublime-text-3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/home/misfity/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scripts.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

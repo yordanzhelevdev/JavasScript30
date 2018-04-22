@@ -65,6 +65,7 @@ body {
 
 .player__controls {
   display:flex;
+  align-items: center;
   position: absolute;
   bottom:0;
   width: 100%;
@@ -102,6 +103,12 @@ body {
   background:#ffc600;
   flex:0;
   flex-basis:50%;
+}
+
+.fullscreen{
+  font-size: 20px;
+  text-align: center;
+  color: aliceblue;
 }
 
 /* unholy css to style input type="range" */
