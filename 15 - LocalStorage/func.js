@@ -1,7 +1,10 @@
   window.onload = () => {
   	const addItems = document.querySelector('.add-items');
+  	const btnCheckAll = addItems.querySelector('.btn-checkAll');
+  	
   	const itemsList = document.querySelector('.plates');
   	const items = JSON.parse(localStorage.getItem('items')) || [];
+
 		
   	function addItem(e){
   		e.preventDefault();
@@ -29,8 +32,8 @@
 					</li>
   			`
   		}).join('');
-  	
   	}
+
 		function toggleDone(e) {
 			if(!e.target.matches('input')) return;
 			const element = e.target;
@@ -39,10 +42,18 @@
 			localStorage.setItem('items', JSON.stringify(items));
 			populateList(items, itemsList);
 		}
+
+		function checkAll(e){
+			items.map(item => {
+				item.done = true;
+			});
+			populateList(items, itemsList);
+			localStorage.setItem('items', JSON.stringify(items));
+		}
 		
 		addItems.addEventListener('submit', addItem);
 		itemsList.addEventListener('click', toggleDone)
-
+		btnCheckAll.addEventListener('click', checkAll);
 		populateList(items, itemsList);
   };
   
