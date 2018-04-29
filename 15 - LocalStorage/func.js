@@ -68,7 +68,7 @@
 		function deleteSelected() {
 		 items = items.filter(item => {
 				return item.done === false;
-			});
+		});
 
 			populateList(items, itemsList);
 			localStorage.setItem('items', JSON.stringify(items));
