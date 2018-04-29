@@ -2,9 +2,10 @@
   	const addItems = document.querySelector('.add-items');
   	const btnCheckAll = addItems.querySelector('.btn-checkAll');
   	const btnUncheckAll = addItems.querySelector('.btn-uncheckAll');
+  	const btnDeletSelected = addItems.querySelector('.btn-deleteChecked');
   	
   	const itemsList = document.querySelector('.plates');
-  	const items = JSON.parse(localStorage.getItem('items')) || [];
+  	let items = JSON.parse(localStorage.getItem('items')) || [];
 
 		
   	function addItem(e){
@@ -45,17 +46,30 @@
 		}
 
 		function checkAll(){
+			
 			items.map(item => {
 				item.done = true;
 			});
+			
 			populateList(items, itemsList);
 			localStorage.setItem('items', JSON.stringify(items));
 		}
 
 		function uncheckAll() {
+			
 			items.map(item => {
 				item.done = false;
 			});
+
+			populateList(items, itemsList);
+			localStorage.setItem('items', JSON.stringify(items));
+		}
+
+		function deleteSelected() {
+		 items = items.filter(item => {
+				return item.done === false;
+			});
+
 			populateList(items, itemsList);
 			localStorage.setItem('items', JSON.stringify(items));
 		}
@@ -64,6 +78,7 @@
 		itemsList.addEventListener('click', toggleDone)
 		btnCheckAll.addEventListener('click', checkAll);
 		btnUncheckAll.addEventListener('click', uncheckAll);
+		btnDeletSelected.addEventListener('click', deleteSelected);
 		populateList(items, itemsList);
   };
   
