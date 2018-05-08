@@ -26,11 +26,8 @@ window.onload = () => {
 		
 		});
 
-		console.log(bandsList);
-
 		sorted.map(band => {
 			bandsList.innerHTML += `<li>${band}</li>`;
 		});
 
-		console.log(sorted);
 }
