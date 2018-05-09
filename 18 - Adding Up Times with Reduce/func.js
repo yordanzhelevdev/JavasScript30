@@ -1,0 +1,26 @@
+window.onload = () => {
+	const videoNodes = Array.from(document.querySelectorAll('[data-time]'));
+
+
+	const seconds = videoNodes
+									.map(node => node.dataset.time)
+									.map(timeCode => {
+										const [mins, secs] = timeCode.split(':').map(parseFloat);
+										return (mins * 60) + secs;
+										console.log(secs,mins);
+									})
+									.reduce((total, seconds) =>{
+										return total + seconds;
+									})
+
+									let secondsLeft = seconds;
+
+									const hours = Math.floor(secondsLeft / 3600);
+									secondsLeft = secondsLeft % 3600;
+									console.log(hours)
+
+									const mins = Math.floor(secondsLeft / 60);
+									secondsLeft = secondsLeft % 60;
+
+									console.log(hours, mins, secondsLeft);
+};
